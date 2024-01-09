@@ -1,0 +1,724 @@
+[
+{
+    "year": 2023,
+    "meanTemp": 7.58,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2670684547,
+    "solarRadMedian": 2,
+    "solarRadMax": 6
+},
+{
+    "year": 2024,
+    "meanTemp": 7.54,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2670684547,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2025,
+    "meanTemp": 7.47,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2670684547,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2026,
+    "meanTemp": 8.18,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2670684547,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2027,
+    "meanTemp": 7.75,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2670684547,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2028,
+    "meanTemp": 8.16,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2670684547,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2029,
+    "meanTemp": 7.92,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2670684547,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2030,
+    "meanTemp": 7.92,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2992135566,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2031,
+    "meanTemp": 7.57,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2992135566,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2032,
+    "meanTemp": 7.75,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2992135566,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2033,
+    "meanTemp": 7.95,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2992135566,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2034,
+    "meanTemp": 8.35,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2992135566,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2035,
+    "meanTemp": 7.99,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2992135566,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2036,
+    "meanTemp": 8.05,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2992135566,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2037,
+    "meanTemp": 8.68,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2992135566,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2038,
+    "meanTemp": 8.71,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2992135566,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2039,
+    "meanTemp": 8.64,
+    "sumTempAnoLow": 0,
+    "sumTempAnoHigh": 2.32,
+    "airQuality": 0.2992135566,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2040,
+    "meanTemp": 8.57,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.379628123,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2041,
+    "meanTemp": 9.04,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.379628123,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2042,
+    "meanTemp": 8.99,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.379628123,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2043,
+    "meanTemp": 8.88,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.379628123,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2044,
+    "meanTemp": 9.99,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.379628123,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2045,
+    "meanTemp": 9.07,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.379628123,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2046,
+    "meanTemp": 8.64,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.379628123,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2047,
+    "meanTemp": 8.98,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.379628123,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2048,
+    "meanTemp": 9.01,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.379628123,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2049,
+    "meanTemp": 9.34,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.379628123,
+    "solarRadMedian": 2,
+"solarRadMax": 6
+},
+{
+    "year": 2050,
+    "meanTemp": 9.47,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.4233154264,
+    "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2051,
+    "meanTemp": 9.23,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.4233154264,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2052,
+    "meanTemp": 9.45,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.4233154264,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2053,
+    "meanTemp": 9.53,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.4233154264,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2054,
+    "meanTemp": 9.72,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.4233154264,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2055,
+    "meanTemp": 9.61,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.4233154264,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2056,
+    "meanTemp": 10.15,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.4233154264,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2057,
+    "meanTemp": 10.11,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.4233154264,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2058,
+    "meanTemp": 10.22,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.4233154264,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2059,
+    "meanTemp": 9.95,
+    "sumTempAnoLow": 1.17,
+    "sumTempAnoHigh": 3.76,
+    "airQuality": 0.4233154264,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2060,
+    "meanTemp": 9.53,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.4828548231,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2061,
+    "meanTemp": 9.91,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.4828548231,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2062,
+    "meanTemp": 10.39,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.4828548231,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2063,
+    "meanTemp": 10.06,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.4828548231,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2064,
+    "meanTemp": 10.16,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.4828548231,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2065,
+    "meanTemp": 10.74,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.4828548231,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2066,
+    "meanTemp": 10.42,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.4828548231,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2067,
+    "meanTemp": 10.18,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.4828548231,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2068,
+    "meanTemp": 10.58,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.4828548231,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2069,
+    "meanTemp": 10.37,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.4828548231,
+        "solarRadMedian": 3,
+    "solarRadMax": 8
+},
+{
+    "year": 2070,
+    "meanTemp": 11.18,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.363703612,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2071,
+    "meanTemp": 10.35,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.363703612,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2072,
+    "meanTemp": 11.17,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.363703612,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2073,
+    "meanTemp": 11.68,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.363703612,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2074,
+    "meanTemp": 11.19,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.363703612,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2075,
+    "meanTemp": 11.19,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.363703612,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2076,
+    "meanTemp": 11.27,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.363703612,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2077,
+    "meanTemp": 10.95,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.363703612,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2078,
+    "meanTemp": 11.95,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.363703612,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2079,
+    "meanTemp": 11.8,
+    "sumTempAnoLow": 1.84,
+    "sumTempAnoHigh": 5.92,
+    "airQuality": 0.363703612,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2080,
+    "meanTemp": 12.44,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.547536419,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2081,
+    "meanTemp": 12.29,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.547536419,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2082,
+    "meanTemp": 12.04,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.547536419,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2083,
+    "meanTemp": 12.58,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.547536419,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2084,
+    "meanTemp": 12.55,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.547536419,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2085,
+    "meanTemp": 12.94,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.547536419,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2086,
+    "meanTemp": 12.06,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.547536419,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2087,
+    "meanTemp": 12.53,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.547536419,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2088,
+    "meanTemp": 13.01,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.547536419,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2089,
+    "meanTemp": 12.85,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.547536419,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2090,
+    "meanTemp": 13.15,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5314168574,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2091,
+    "meanTemp": 13.68,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5314168574,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2092,
+    "meanTemp": 13.27,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5314168574,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2093,
+    "meanTemp": 13.42,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5314168574,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2094,
+    "meanTemp": 13.8,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5314168574,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2095,
+    "meanTemp": 13.67,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5314168574,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2096,
+    "meanTemp": 14.13,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5314168574,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2097,
+    "meanTemp": 13.78,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5314168574,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2098,
+    "meanTemp": 14.18,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5314168574,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2099,
+    "meanTemp": 14.25,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5314168574,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+},
+{
+    "year": 2100,
+    "meanTemp": 14.51,
+    "sumTempAnoLow": 2.52,
+    "sumTempAnoHigh": 8.55,
+    "seasonLength": 8,
+    "airQuality": 0.5694080944,
+        "solarRadMedian": 3,
+    "solarRadMax": 11
+}]

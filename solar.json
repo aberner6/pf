@@ -1,0 +1,92 @@
+[
+ {
+   "Period": "2020–2049",
+   "Forcing": "RCP8.5",
+   "Quantile": "5",
+   "DJF": -11,
+   "MAM": -5,
+   "JJA": -2,
+   "SON": -6,
+   "ANN": -2
+ },
+ {
+   "Period": "2020–2049",
+   "Forcing": "RCP8.5",
+   "Quantile": "Median",
+   "DJF": -3,
+   "MAM": 0,
+   "JJA": 2,
+   "SON": 2,
+   "ANN": 1
+ },
+ {
+   "Period": "2020–2049",
+   "Forcing": "RCP8.5",
+   "Quantile": "95",
+   "DJF": 4,
+   "MAM": 4,
+   "JJA": 6,
+   "SON": 10,
+   "ANN": 5
+ },
+ {
+   "Period": "2040–2069",
+   "Forcing": "RCP8.5",
+   "Quantile": "5",
+   "DJF": -17,
+   "MAM": -6,
+   "JJA": -3,
+   "SON": -7,
+   "ANN": -4
+ },
+ {
+   "Period": "2040–2069",
+   "Forcing": "RCP8.5",
+   "Quantile": "Median",
+   "DJF": -8,
+   "MAM": -1,
+   "JJA": 3,
+   "SON": 2,
+   "ANN": 1
+ },
+ {
+   "Period": "2040–2069",
+   "Forcing": "RCP8.5",
+   "Quantile": "95",
+   "DJF": 2,
+   "MAM": 4,
+   "JJA": 8,
+   "SON": 12,
+   "ANN": 5
+ },
+ {
+   "Period": "2070–2099",
+   "Forcing": "RCP8.5",
+   "Quantile": "5",
+   "DJF": -26,
+   "MAM": -11,
+   "JJA": -6,
+   "SON": -11,
+   "ANN": -7
+ },
+ {
+   "Period": "2070–2099",
+   "Forcing": "RCP8.5",
+   "Quantile": "Median",
+   "DJF": -13,
+   "MAM": -3,
+   "JJA": 3,
+   "SON": 2,
+   "ANN": 0
+ },
+ {
+   "Period": "2070–2099",
+   "Forcing": "RCP8.5",
+   "Quantile": "95",
+   "DJF": -1,
+   "MAM": 4,
+   "JJA": 11,
+   "SON": 16,
+   "ANN": 7
+ }
+]
