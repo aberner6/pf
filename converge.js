@@ -10,7 +10,7 @@ var dryData = [];
 var wetData = [];
 var flowerData = [];
 var howMany = []
-var w = petalSize * 250;
+var w = petalSize * 400;
 var h = petalSize * 80;
 
 const dataPath1 = 'data.json';
@@ -105,13 +105,12 @@ function draw() {
         .attr('class',function(d,i){
         	return d.year;
         })
-        .attr('transform', (d, i) => `translate(${(petalSize*2+i * petalSize*3)},${petalSize*3})scale(${d.petSize})`)
+        .attr('transform', (d, i) => `translate(${(petalSize*8+i * petalSize*5)},${petalSize*4})scale(${d.petSize})`)
         .attr('fill', function(d,i){
         	q3 = 10+Math.floor(randomInteger(d.temp-d.ano, d.temp+d.ano));
         	p2 = 30+Math.floor(randomInteger(d.temp-d.ano, d.temp+d.ano));
         	p3 = 40+Math.floor(randomInteger(d.temp-d.ano, d.temp+d.ano));
 					pPath = ("M 0,0 C -10,"+-p2+" "+-q3+","+-p3+" 0,"+(-p3-10)+" C "+q3+","+-p3+" 10,"+-p2+" 0,0");
-					// console.log(pPath)
 					petalPathVar.push(pPath)
         	hueScale.domain(tempMinMax);
         	satScale.domain(dryMinMax);
@@ -129,8 +128,10 @@ function draw() {
     //NUMBER OF FLOWERS PER YEAR ACCORDING TO DRY DAYS PER YEAR
     const flows = flowers.selectAll('g.flows')
         .data(d => d.numFlows).enter().append('g')
-        .attr('class', 'flows')
-        .attr('transform', (d, i) => `translate(${(0)},${i * d.dry*4})`)
+        .attr('class', function(d){
+            return d.numPetals;
+        })
+        .attr('transform', (d, i) => `translate(${(0)},${i * d.dry*4})`) //spread out by how dry it was
         .attr('stroke', function(d,i){
         	hueScale.domain(airMinMax);
         	return d3.hsl(hueScale(d.airQ),.5,.5,.5);
@@ -151,12 +152,13 @@ function draw() {
         .attr('d', function(d,i){
         	//find the petal path of your year
 			  	var thisYear = d3.select(this.parentNode.parentNode).attr("class");
+
 			  	var whichIndex = thisYear-2023;
-			  	// console.log(whichIndex)
 					return petalPathVar[whichIndex];
 				})
         .attr('transform', function(d, i) {
-            return `rotate(${multPetals(d)})`
+            var numPetals = d3.select(this.parentNode).attr("class");
+            return `rotate(${360 * i / numPetals})`
         })
 
 
@@ -164,7 +166,9 @@ function draw() {
 		//BULLS EYE
     const bulls = flowers.selectAll('g.bulls')
         .data(d => d.numFlows).enter().append('g')
-        .attr('class', 'bulls')
+        .attr('class', function(d){
+            return d.numPetals;
+        })
         .attr('transform', (d, i) => `translate(${(0)},${i * d.dry*4})scale(${d.solSize/1.5})`)
         .attr('fill', function(d,i){
         	hueScale.domain(solarMinMax).range([50, 60]);
@@ -187,7 +191,9 @@ function draw() {
 					return petalPathVar[whichIndex];
 				})
         .attr('transform', function(d, i) {
-            return `rotate(${multPetals(d)})`
+            var numPetals = d3.select(this.parentNode).attr("class");
+            return `rotate(${360 * i / numPetals})`
+            // return `rotate(${multPetals(d)})`
         })
         .attr('stroke','white')
         .attr('stroke-width',.5)
