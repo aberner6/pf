@@ -147,9 +147,6 @@ function draw() {
             thisCol.s = satScale(d.dry);
             thisCol.opacity = .5;
             return thisCol;
-
-            //another option
-            // return d3.hsl(thisCol,satScale(d.dry),ltScale(d.ano),.6);
         })
     flowers.append('line')
         .attr('x1', 0)
@@ -166,11 +163,6 @@ function draw() {
             return d.numPetals;
         })
         .attr('transform', (d, i) => `translate(${(0)},${i * d.dry*4})`) //spread out by how dry it was
-        // .attr('stroke', function(d, i) {
-        //     hueScale.domain(airMinMax);
-        //     return d3.hsl(hueScale(d.airQ), .5, .5, .5);
-        // })
-        // .attr('stroke-width',1)
 
     //NUMBER OF PETALS PER YEAR ACCORDING TO TEMPERATURE
     flows
@@ -265,7 +257,6 @@ function draw() {
         .attr('transform', function(d, i) {
             var numPetals = d3.select(this.parentNode).attr("class");
             return `rotate(${360 * i / numPetals})`
-            // return `rotate(${multPetals(d)})`
         })
         .attr('stroke', 'white')
         .attr('stroke-width', .5)
