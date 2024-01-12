@@ -19,7 +19,7 @@ var wetData = [];
 var flowerData = [];
 var howMany = []
 var w = petalSize * 400;
-var h = petalSize * 80;
+var h = 3000;
 
 const dataPath1 = 'data.json';
 const dataPath2 = 'dryDays.json';
@@ -28,12 +28,12 @@ const dataPath3 = 'wetDays.json';
 
 //pink purple red yellow orange 
 // var colorRange = ["#fff7f3","#fff7f3","#fde2df","#fccac8","#fbabb8","#f880aa","#cea0cd","#d9c2df","#e8e1ef","#f7f4f9","#750175","#49006a","#ffffe5","#fff6c0","#fee799","#fece66","#fdac3b","#f58720","#fff5eb"]    
-var colorRange = ["antiquewhite","antiquewhite", "antiquewhite","antiquewhite","antiquewhite", "antiquewhite","pink", "pink","pink","pink", "pink","pink","magenta","magenta","magenta","blue","blue","blue","red","red","red","red","orange"]
+var colorRange = ["antiquewhite","antiquewhite", "antiquewhite","antiquewhite","antiquewhite", "antiquewhite","pink", "pink","pink","pink", "pink","pink","magenta","magenta","magenta","purple","red","orange"]
 const fillScale = d3.scaleSequential()
     .interpolator(d3.interpolateRgbBasis(colorRange))
 
 
-var veinRange = ["pink","red","blue"]
+var veinRange = ["pink","red","orange"]
 const veinScale = d3.scaleSequential()
     .interpolator(d3.interpolateRgbBasis(veinRange))
 
@@ -58,6 +58,7 @@ function draw() {
     console.log(tempMinMax)
     const dryMinMax = d3.extent(data, d => +d.dryDays);
     const wetMinMax = d3.extent(data, d => +d.wetDays);
+    console.log(wetMinMax+"wet")
     const anoMinMax = d3.extent(data, d => +d.sumTempAnoHigh);
     const yearMinMax = d3.extent(data, d => +d.year);
     const airMinMax = d3.extent(data, d => +d.airQuality);
@@ -80,7 +81,7 @@ function draw() {
     const sizeScale = d3.scaleLinear().domain(comboMinMax).range([0.25, 1]);
     const solScale = d3.scaleLinear().domain(solarMinMax).range([0.25, 1]);
 
-    const numPetalScale = d3.scaleQuantize().domain(tempMinMax).range([3, 6, 9, 12, 15, 18]);
+    const numPetalScale = d3.scaleQuantize().domain(tempMinMax).range([2,3,4,6,8,9,12,16,20]);
     const multPetals = d3.scaleLinear().domain([0, 18]).range([0, 360]);
 
     const mapYear = d3.scaleLinear().domain(yearMinMax);
@@ -88,7 +89,6 @@ function draw() {
     function randomInteger(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    const numFlowers = d3.scaleLinear().domain(wetMinMax).range([1, 10])
     const flowersData = _.map(data, d => {
         const combo = d.meanTemp * (d.dryDays - d.wetDays);
         const numPetals = numPetalScale(d.meanTemp);
@@ -103,9 +103,8 @@ function draw() {
 
         const solar = Math.floor(randomInteger(d.solarRadMedian, d.solarRadMax))
         const solSize = solScale(solar)
-
         return {
-            numFlows: _.times(numFlowers(d.wetDays), i => { return { numPetals: numPetals, dry: dry, airQ: airQ, solSize: solSize, solar: solar } }),
+            numFlows: _.times(d.wetDays, i => { return { numPetals: numPetals, dry: dry, wet:wet, airQ: airQ, solSize: solSize, solar: solar } }),
             petSize,
             numPetals,
             dry,
@@ -132,12 +131,17 @@ function draw() {
             p2 = 30 + Math.floor(randomInteger(d.temp - d.ano, d.temp + d.ano));
             p3 = 40 + Math.floor(randomInteger(d.temp - d.ano, d.temp + d.ano));
 
-            //for the petal paths
+
+            // petalPath = "M 0,0 C -10,-10 -10,-40 0,-50 C 10,-40 10,-10 0,0"  
+           //version of petal path with notch
+           // pPath = ("M 0,0 C -10," + -p1 + " " + -p1 + "," + -p3 + " -5," + (-p3-10) + " C -5," + (-p3-10) + " 0," + (-p3-2) + " 5," + (-p3-10) + " C " + p1 + "," + -p3 + " " + p1 + "," + -p1 + " 0,0");
+
+            //for the petal path without notch
             pPath = ("M 0,0 C -10," + -p2 + " " + -p1 + "," + -p3 + " 0," + (-p3 - 10) + " C " + p1 + "," + -p3 + " 10," + -p2 + " 0,0");
             petalPathVar.push(pPath);
 
             //for the vein paths
-            vPath = ("M 0,0 C -1," + -p2/2 + " " + -p1/1.5 + "," + -p3 + " 0," + (-p3 - 10) + " C " + p1/1.5 + "," + -p3 + " 1," + -p2/2 + " 0,0");
+            vPath = ("M 0,0 C -1," + -p1/2 + " " + -p1/3 + "," + -p3 + " 0," + (-p3 - 10) + " C " + p1/3 + "," + -p3 + " 1," + -p1/2 + " 0,0");
             veinPathVar.push(vPath);
 
             //for the petal fill
@@ -148,6 +152,7 @@ function draw() {
             thisCol.opacity = .5;
             return thisCol;
         })
+
     flowers.append('line')
         .attr('x1', 0)
         .attr('x2', 0)
@@ -201,7 +206,6 @@ function draw() {
             return thisCol;
         })
         .attr('stroke-width',.1)
-        .attr('fill', 'none')
     veins
         .selectAll('path.veins')
         .data(d =>
