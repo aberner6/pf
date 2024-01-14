@@ -28,7 +28,8 @@ const dataPath3 = 'wetDays.json';
 
 //pink purple red yellow orange 
 // var colorRange = ["#fff7f3","#fff7f3","#fde2df","#fccac8","#fbabb8","#f880aa","#cea0cd","#d9c2df","#e8e1ef","#f7f4f9","#750175","#49006a","#ffffe5","#fff6c0","#fee799","#fece66","#fdac3b","#f58720","#fff5eb"]    
-var colorRange = ["antiquewhite","antiquewhite", "antiquewhite","antiquewhite","antiquewhite", "antiquewhite","pink", "pink","pink","pink", "pink","pink","magenta","magenta","magenta","purple","red","orange"]
+// var colorRange = ["antiquewhite","antiquewhite", "antiquewhite","antiquewhite","antiquewhite", "antiquewhite","pink", "pink","pink","pink", "pink","pink","magenta","magenta","magenta","purple","red","orange"]
+var colorRange = ["antiquewhite","pink","purple","red","orange"]
 const fillScale = d3.scaleSequential()
     .interpolator(d3.interpolateRgbBasis(colorRange))
 
@@ -70,9 +71,11 @@ function draw() {
     const solarMinMax = [solMedMinMax[0], solMax[1]]
     console.log(solarMinMax)
 
-    const comboMinMax = [(tempMinMax[0] * (dryMinMax[0] - wetMinMax[0])), (tempMinMax[1] * (dryMinMax[1] - wetMinMax[1]))]
-    //I NEED A WEIGHTED FACTOR AND THE WEIGHTED FACTOR ON TEMPERATURE IS DRY DAYS - WET DAYS
-
+    const coMinMax = d3.extent(data, d => +d.co);
+    const scaleCO = d3.scaleLinear().domain(coMinMax).range([.1,1])
+    const comboMinMax = [(tempMinMax[0] * (dryMinMax[0] - wetMinMax[0])+scaleCO(coMinMax[0])), (tempMinMax[1] * (dryMinMax[1] - wetMinMax[1])+scaleCO(coMinMax[1]))]
+    //WEIGHTED FACTOR ON TEMPERATURE IS DRY DAYS - WET DAYS
+    console.log(comboMinMax)
 
     const hueScale = d3.scaleLinear().range([1, 360]);
     const satScale = d3.scaleLinear().range([1, .7]);
@@ -90,7 +93,7 @@ function draw() {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
     const flowersData = _.map(data, d => {
-        const combo = d.meanTemp * (d.dryDays - d.wetDays);
+        const combo = d.meanTemp * (d.dryDays - d.wetDays)+scaleCO(d.co);
         const numPetals = numPetalScale(d.meanTemp);
         const petSize = sizeScale(combo);
 
@@ -145,11 +148,17 @@ function draw() {
             veinPathVar.push(vPath);
 
             //for the petal fill
-            fillScale.domain(yearMinMax)
+            fillScale.domain(comboMinMax)
             satScale.domain(dryMinMax);
-            var thisCol = d3.hsl(fillScale(d.year))
+
+            console.log(d.combo+" "+comboMinMax[0])
+            console.log(d.combo>comboMinMax[1])
+            console.log(fillScale(d.combo))
+            var thisCol = d3.hsl(fillScale(d.combo)) //this isn't working
+
             thisCol.s = satScale(d.dry);
             thisCol.opacity = .5;
+
             return thisCol;
         })
 
