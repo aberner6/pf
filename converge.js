@@ -120,6 +120,19 @@ function draw() {
         }
     });
     console.log(flowersData)
+
+
+
+    var download = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(flowerData));
+    var a = document.createElement('a');
+    a.href = 'data:' + download;
+    a.download = 'data.json';
+    a.innerHTML = 'download JSON';
+    var container = document.getElementById('container');
+    container.appendChild(a);
+
+
+
     const flowers = svg
         .selectAll('g.flower')
         .data(flowersData)
@@ -151,9 +164,6 @@ function draw() {
             fillScale.domain(comboMinMax)
             satScale.domain(dryMinMax);
 
-            console.log(d.combo+" "+comboMinMax[0])
-            console.log(d.combo>comboMinMax[1])
-            console.log(fillScale(d.combo))
             var thisCol = d3.hsl(fillScale(d.combo)) //this isn't working
 
             thisCol.s = satScale(d.dry);
