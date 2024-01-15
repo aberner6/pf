@@ -123,7 +123,7 @@ function draw() {
 
 
 
-    var download = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(flowerData));
+    var download = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(flowersData));
     var a = document.createElement('a');
     a.href = 'data:' + download;
     a.download = 'data.json';
