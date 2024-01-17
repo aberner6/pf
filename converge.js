@@ -95,7 +95,7 @@ function draw() {
         const ano = d.sumTempAnoHigh; //anomaly of temperature for summer months
         const wet = d.wetDays; //number of consecutive wet days
         const airQ = d.airQuality; //projected future air quality
-
+        const co = d.co;
         //projected future solar radiation - i asked the code to give me random numbers between the median and max 
         const solar = Math.floor(randomInteger(d.solarRadMedian, d.solarRadMax)) 
         const solSize = solScale(solar)
@@ -109,7 +109,8 @@ function draw() {
             ano,
             wet,
             combo,
-            solar
+            solar,
+            co
         }
     });
     console.log(flowersData)
