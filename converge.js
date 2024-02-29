@@ -90,6 +90,7 @@ function draw() {
         const petSize = sizeScale(combo);
 
         const year = d.year;
+        const unc = d.unc;
         const temp = d.meanTemp; //annual mean temperature
         const dry = d.dryDays; //number of consecutive dry days
         const ano = d.sumTempAnoHigh; //anomaly of temperature for summer months
@@ -110,7 +111,8 @@ function draw() {
             wet,
             combo,
             solar,
-            co
+            co,
+            unc
         }
     });
     console.log(flowersData)
