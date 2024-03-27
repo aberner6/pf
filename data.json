@@ -8,7 +8,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  44,
-    "unc": 0     
+    "unc": 0,
+    "sumTemp": 20.48     
 },
 {
     "year": 2024,
@@ -19,7 +20,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  44,
-    "unc": 0      
+    "unc": 0,
+    "sumTemp": 20.62      
 },
 {
     "year": 2025,
@@ -30,7 +32,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  44,
-    "unc": 0      
+    "unc": 0,
+    "sumTemp": 20.76      
 },
 {
     "year": 2026,
@@ -41,7 +44,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  44,
-    "unc": 0      
+    "unc": 0,
+    "sumTemp": 20.90       
 },
 {
     "year": 2027,
@@ -52,7 +56,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  44,
-    "unc": 0      
+    "unc": 0,
+    "sumTemp": 21.04      
 },
 {
     "year": 2028,
@@ -63,7 +68,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  44,
-    "unc": 0      
+    "unc": 0,
+    "sumTemp": 21.17      
 },
 {
     "year": 2029,
@@ -74,7 +80,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  44,
-    "unc": 0     
+    "unc": 0,
+    "sumTemp": 21.31     
 },
 {
     "year": 2030,
@@ -85,7 +92,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  51,
-    "unc": 0.1      
+    "unc": 0.1,
+    "sumTemp": 21.45      
 },
 {
     "year": 2031,
@@ -96,7 +104,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  51,
-    "unc": 1 
+    "unc": 1,
+    "sumTemp": 21.58  
 },
 {
     "year": 2032,
@@ -107,7 +116,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  51,
-    "unc": 1 
+    "unc": 1,
+    "sumTemp": 21.72 
 },
 {
     "year": 2033,
@@ -118,7 +128,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":  51,
-    "unc": 1 
+    "unc": 1,
+    "sumTemp": 21.86 
 },
 {
     "year": 2034,
@@ -129,7 +140,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":51,
-    "unc": 1 
+    "unc": 1,
+    "sumTemp": 22.00 
 },
 {
     "year": 2035,
@@ -140,7 +152,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":51,
-    "unc": 1      
+    "unc": 1,
+    "sumTemp": 22.14      
 },
 {
     "year": 2036,
@@ -151,7 +164,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":51,
-    "unc": 2     
+    "unc": 2,
+    "sumTemp": 22.28     
 },
 {
     "year": 2037,
@@ -162,7 +176,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":51,
-    "unc": 2     
+    "unc": 2,
+    "sumTemp": 22.41     
 },
 {
     "year": 2038,
@@ -173,7 +188,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":51,
-    "unc": 2     
+    "unc": 2,
+    "sumTemp": 22.55        
 },
 {
     "year": 2039,
@@ -184,7 +200,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":51,
-    "unc": 2  
+    "unc": 2,
+    "sumTemp": 22.69  
 },
 {
     "year": 2040,
@@ -195,7 +212,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":62,
-    "unc": 3      
+    "unc": 3,
+    "sumTemp": 22.7      
 },
 {
     "year": 2041,
@@ -206,7 +224,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":62,
-    "unc": 3  
+    "unc": 3,
+    "sumTemp": 22.8  
 },
 {
     "year": 2042,
@@ -217,7 +236,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":62,
-    "unc": 3 
+    "unc": 3,
+    "sumTemp": 22.9 
 },
 {
     "year": 2043,
@@ -228,7 +248,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":62,
-    "unc": 3 
+    "unc": 3,
+    "sumTemp": 23 
 },
 {
     "year": 2044,
@@ -239,7 +260,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":62,
-    "unc": 3 
+    "unc": 3,
+    "sumTemp": 23.1 
 },
 {
     "year": 2045,
@@ -250,7 +272,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":62,
-    "unc": 3 
+    "unc": 3,
+    "sumTemp": 23.2 
 },
 {
     "year": 2046,
@@ -261,7 +284,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":62,
-    "unc": 4 
+    "unc": 4,
+    "sumTemp": 23.3 
 },
 {
     "year": 2047,
@@ -272,7 +296,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":62,
-    "unc": 4
+    "unc": 4,
+    "sumTemp": 23.4
 },
 {
     "year": 2048,
@@ -283,7 +308,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":62,
-    "unc": 4
+    "unc": 4,
+    "sumTemp": 23.5
 },
 {
     "year": 2049,
@@ -294,7 +320,8 @@
     "solarRadMedian": 2,
     "solarRadMax": 6,
     "co":62,
-    "unc": 4
+    "unc": 4,
+    "sumTemp": 23.6
 },
 {
     "year": 2050,
@@ -305,7 +332,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":75,
-    "unc": 4
+    "unc": 4,
+    "sumTemp": 23.7
 },
 {
     "year": 2051,
@@ -316,7 +344,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":75,
-    "unc": 4
+    "unc": 4,
+    "sumTemp": 23.8
 },
 {
     "year": 2052,
@@ -327,7 +356,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":75,
-    "unc": 4
+    "unc": 4,
+    "sumTemp": 23.9
 },
 {
     "year": 2053,
@@ -338,7 +368,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":75,
-    "unc": 4
+    "unc": 4,
+    "sumTemp": 24
 },
 {
     "year": 2054,
@@ -349,7 +380,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":75,
-    "unc": 4
+    "unc": 4,
+    "sumTemp": 24.1
 },
 {
     "year": 2055,
@@ -360,7 +392,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":75,
-    "unc": 4
+    "unc": 4,
+    "sumTemp": 24.15
 },
 {
     "year": 2056,
@@ -371,7 +404,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":75,
-    "unc": 4
+    "unc": 4,
+    "sumTemp": 24.2
 },
 {
     "year": 2057,
@@ -382,7 +416,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":75,
-    "unc": 5
+    "unc": 5,
+    "sumTemp": 24.25
 },
 {
     "year": 2058,
@@ -393,7 +428,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":75,
-    "unc": 5
+    "unc": 5,
+    "sumTemp": 24.3
 },
 {
     "year": 2059,
@@ -404,7 +440,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":75,
-    "unc": 5
+    "unc": 5,
+    "sumTemp": 24.35
 },
 {
     "year": 2060,
@@ -415,7 +452,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":88,
-    "unc": 5
+    "unc": 5,
+    "sumTemp": 24.35
 },
 {
     "year": 2061,
@@ -426,7 +464,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":88,
-    "unc": 5
+    "unc": 5,
+    "sumTemp": 24.45
 },
 {
     "year": 2062,
@@ -437,7 +476,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":88,
-    "unc": 5
+    "unc": 5,
+    "sumTemp": 24.55
 },
 {
     "year": 2063,
@@ -448,7 +488,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":88,
-    "unc": 6
+    "unc": 6,
+    "sumTemp": 24.66
 },
 {
     "year": 2064,
@@ -459,7 +500,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":88,
-    "unc": 6
+    "unc": 6,
+    "sumTemp": 24.76
 },
 {
     "year": 2065,
@@ -470,7 +512,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":88,
-    "unc": 7
+    "unc": 7,
+    "sumTemp": 24.86
 },
 {
     "year": 2066,
@@ -481,7 +524,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":88,
-    "unc": 7
+    "unc": 7,
+    "sumTemp": 24.96
 },
 {
     "year": 2067,
@@ -492,7 +536,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":88,
-    "unc": 7
+    "unc": 7,
+    "sumTemp": 25.06
 },
 {
     "year": 2068,
@@ -503,7 +548,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":88,
-    "unc": 7
+    "unc": 7,
+    "sumTemp": 25.17
 },
 {
     "year": 2069,
@@ -514,7 +560,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 8,
     "co":88,
-    "unc": 7
+    "unc": 7,
+    "sumTemp": 25.27
 },
 {
     "year": 2070,
@@ -525,7 +572,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":95,
-    "unc": 7
+    "unc": 7,
+    "sumTemp": 25.37
 },
 {
     "year": 2071,
@@ -536,7 +584,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":95,
-    "unc": 7
+    "unc": 7,
+    "sumTemp": 25.47
 },
 {
     "year": 2072,
@@ -547,7 +596,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":95,
-    "unc": 8
+    "unc": 8,
+    "sumTemp": 25.57
 },
 {
     "year": 2073,
@@ -558,7 +608,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":95,
-    "unc": 8
+    "unc": 8,
+    "sumTemp": 25.67
 },
 {
     "year": 2074,
@@ -569,7 +620,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":95,
-    "unc": 9
+    "unc": 9,
+    "sumTemp": 25.77
 },
 {
     "year": 2075,
@@ -580,7 +632,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":95,
-    "unc": 9
+    "unc": 9,
+    "sumTemp": 25.88
 },
 {
     "year": 2076,
@@ -591,7 +644,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":95,
-    "unc": 9
+    "unc": 9,
+    "sumTemp": 25.98
 },
 {
     "year": 2077,
@@ -602,7 +656,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":95,
-    "unc": 9
+    "unc": 9,
+    "sumTemp": 26.08
 },
 {
     "year": 2078,
@@ -613,7 +668,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":95,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 26.29
 },
 {
     "year": 2079,
@@ -624,7 +680,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":95,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 26.39
 },
 {
     "year": 2080,
@@ -636,7 +693,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":100,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 26.39
 },
 {
     "year": 2081,
@@ -648,7 +706,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":100,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 26.52
 },
 {
     "year": 2082,
@@ -660,7 +719,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":100,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 26.65
 },
 {
     "year": 2083,
@@ -672,7 +732,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":100,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 26.65
 },
 {
     "year": 2084,
@@ -684,7 +745,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":100,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 26.78
 },
 {
     "year": 2085,
@@ -696,7 +758,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":100,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 26.91
 },
 {
     "year": 2086,
@@ -708,7 +771,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":100,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 27.04
 },
 {
     "year": 2087,
@@ -720,7 +784,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":100,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 27.17
 },
 {
     "year": 2088,
@@ -732,7 +797,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":100,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 27.3
 },
 {
     "year": 2089,
@@ -744,7 +810,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":100,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 27.43
 },
 {
     "year": 2090,
@@ -756,7 +823,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc": 10
+    "unc": 10,
+    "sumTemp": 27.56
 },
 {
     "year": 2091,
@@ -768,7 +836,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc":10
+    "unc":10,
+    "sumTemp": 27.69
 },
 {
     "year": 2092,
@@ -780,7 +849,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc":10
+    "unc":10,
+    "sumTemp": 27.82
 },
 {
     "year": 2093,
@@ -792,7 +862,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc":10
+    "unc":10,
+    "sumTemp": 27.95
 },
 {
     "year": 2094,
@@ -804,7 +875,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc":11
+    "unc":11,
+    "sumTemp": 28.08
 },
 {
     "year": 2095,
@@ -816,7 +888,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc":10
+    "unc":10,
+    "sumTemp": 28.21
 },
 {
     "year": 2096,
@@ -828,7 +901,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc":10
+    "unc":10,
+    "sumTemp": 28.34
 },
 {
     "year": 2097,
@@ -840,7 +914,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc":10
+    "unc":10,
+    "sumTemp": 28.47
 },
 {
     "year": 2098,
@@ -852,7 +927,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc":10
+    "unc":10,
+    "sumTemp": 28.6
 },
 {
     "year": 2099,
@@ -864,7 +940,8 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc":10
+    "unc":10,
+    "sumTemp": 28.73
 },
 {
     "year": 2100,
@@ -876,5 +953,6 @@
     "solarRadMedian": 3,
     "solarRadMax": 11,
     "co":105,
-    "unc":11
+    "unc":11,
+    "sumTemp": 28.73
 }]

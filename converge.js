@@ -89,6 +89,19 @@ function draw() {
         const numPetals = numPetalScale(d.meanTemp);
         const petSize = sizeScale(combo);
 
+        if(d.year>=2023 && d.year<2040){
+            d.sumTemp = d3.randomUniform(20.07,22.70)();
+        }
+        if(d.year>=2040 && d.year<2060){
+            d.sumTemp = d3.randomUniform(21.22,24.35)();
+        }
+        if(d.year>=2060 && d.year<2080){
+            d.sumTemp = d3.randomUniform(21.76,26.39)();
+        }
+        if(d.year>=2080 && d.year<=2100){
+            d.sumTemp = d3.randomUniform(22.48,28.86)();
+        }
+        const sumTemp = d.sumTemp;
         const year = d.year;
         const unc = d.unc;
         const temp = d.meanTemp; //annual mean temperature
@@ -112,7 +125,8 @@ function draw() {
             combo,
             solar,
             co,
-            unc
+            unc,
+            sumTemp
         }
     });
     console.log(flowersData)
