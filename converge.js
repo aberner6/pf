@@ -66,6 +66,7 @@ function draw() {
     //WEIGHTED FACTOR ON TEMPERATURE IS DRY DAYS - WET DAYS
     console.log(comboMinMax)
 
+    const altComboMinMax = [(20.07 * (dryMinMax[0] - wetMinMax[0])+scaleCO(coMinMax[0])), (28.86 * (dryMinMax[1] - wetMinMax[1])+scaleCO(coMinMax[1]))]
 //setting up scales for color, size and petals
     const hueScale = d3.scaleLinear().range([1, 360]);
     const satScale = d3.scaleLinear().range([1, .7]);
@@ -73,6 +74,9 @@ function draw() {
 
     const sizeScale = d3.scaleLinear().domain(comboMinMax).range([0.25, 1]);
     const solScale = d3.scaleLinear().domain(solarMinMax).range([0.25, 1]);
+
+
+    const altPetalScale = d3.scaleLinear().domain(altComboMinMax).range([0.25, 1]);
 
     const numPetalScale = d3.scaleQuantize().domain(tempMinMax).range([2,3,4,6,8,9,12,16,20]);
     const multPetals = d3.scaleLinear().domain([0, 18]).range([0, 360]);
@@ -102,6 +106,8 @@ function draw() {
             d.sumTemp = d3.randomUniform(22.48,28.86)();
         }
         const sumTemp = d.sumTemp;
+        const altCombo = d.sumTemp * (d.dryDays - d.wetDays)+scaleCO(d.co);
+
         const year = d.year;
         const unc = d.unc;
         const temp = d.meanTemp; //annual mean temperature
@@ -126,7 +132,8 @@ function draw() {
             solar,
             co,
             unc,
-            sumTemp
+            sumTemp,
+            altCombo
         }
     });
     console.log(flowersData)
