@@ -38,33 +38,42 @@ Promise.all([
 
 
 function draw() {
-    console.log(data[0])
+    // console.log(data[0])
     const svg = d3.select("#canvas").append("svg")
         .attr("width", w)
         .attr("height", h)
 
 //setting up a bunch of mins and maxes so I can use scales to map the data to visual parameters
     const tempMinMax = d3.extent(data, d => +d.meanTemp);
-    console.log(tempMinMax)
+    console.log(tempMinMax+"temp")
     const dryMinMax = d3.extent(data, d => +d.dryDays);
     const wetMinMax = d3.extent(data, d => +d.wetDays);
     console.log(wetMinMax+"wet")
+    console.log(dryMinMax+"dry")
     const anoMinMax = d3.extent(data, d => +d.sumTempAnoHigh);
     const yearMinMax = d3.extent(data, d => +d.year);
-    const airMinMax = d3.extent(data, d => +d.airQuality);
 
     const solMax = d3.extent(data, d => +d.solarRadMax);
     const solMedMinMax = d3.extent(data, d => +d.solarRadMedian);
-    console.log(solMax)
-    console.log(solMedMinMax)
     const solarMinMax = [solMedMinMax[0], solMax[1]]
-    console.log(solarMinMax)
+    console.log(solarMinMax+"solar")
+
+    const sumMinMax = d3.extent(data, d => +d.sumTemp);
+    console.log(sumMinMax+"sumTemp")
+
+    const airMinMax = d3.extent(data, d => +d.airQuality);
+    console.log(airMinMax+"airQuality")
 
     const coMinMax = d3.extent(data, d => +d.co);
     const scaleCO = d3.scaleLinear().domain(coMinMax).range([.1,1])
     const comboMinMax = [(tempMinMax[0] * (dryMinMax[0] - wetMinMax[0])+scaleCO(coMinMax[0])), (tempMinMax[1] * (dryMinMax[1] - wetMinMax[1])+scaleCO(coMinMax[1]))]
     //WEIGHTED FACTOR ON TEMPERATURE IS DRY DAYS - WET DAYS
-    console.log(comboMinMax)
+    console.log(coMinMax+"co")
+
+
+    const uncMinMax = d3.extent(data, d => +d.unc);
+    console.log(uncMinMax+"unc")
+
 
     const altComboMinMax = [(20.07 * (dryMinMax[0] - wetMinMax[0])+scaleCO(coMinMax[0])), (28.86 * (dryMinMax[1] - wetMinMax[1])+scaleCO(coMinMax[1]))]
 //setting up scales for color, size and petals
@@ -108,6 +117,7 @@ function draw() {
         const sumTemp = d.sumTemp;
         const altCombo = d.sumTemp * (d.dryDays - d.wetDays)+scaleCO(d.co);
 
+
         const year = d.year;
         const unc = d.unc;
         const temp = d.meanTemp; //annual mean temperature
@@ -133,10 +143,11 @@ function draw() {
             co,
             unc,
             sumTemp,
+            airQ,
             altCombo
         }
     });
-    console.log(flowersData)
+    // console.log(flowersData)
 
 
     //thing to download the compiled data
